@@ -1,0 +1,375 @@
+.home_page {
+    padding: 16px 0;
+}
+
+.home_page_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.home_page_span {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.fruit_title {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--c1-a);
+}
+
+.fruit_sub_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+    // cursor: pointer;
+    display: block;
+}
+
+.fruit_list {
+    display: flex;
+}
+
+.fruit_list {
+    display: flex;
+    gap: 24px;
+}
+
+.fruit_item {
+    display: flex;
+    gap: 4px;
+}
+
+.fruit_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent_searches {
+    display: flex;
+    gap: 12px;
+}
+
+.applied {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.search_span {
+    display: inline-block;
+}
+
+.main_fruit_block {
+    padding: 64px 0;
+}
+
+.fruit_category_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 268px;
+    margin-bottom: 12px;
+}
+
+.fruit_category_title_link {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.fruit_category_link {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+}
+
+.fruit_checkbox_title_link {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.custom_fruit_checkbox {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 2px solid var(--c1-d);
+}
+
+.fruit_checkbox:checked+.custom_fruit_checkbox {
+    background-color: var(--c2-a);
+    border: 2px solid var(--c2-b);
+    background-image: url(../img/checkbox_tick.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fruit_brand_list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.fruits_brand_item {
+    display: flex;
+
+    gap: 8px;
+}
+
+.fruit_stars {
+    display: block;
+    text-align: center;
+    margin-top: -10px;
+    // width: 24px;
+}
+
+.fruit_price {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.fruit_main_list {
+    display: grid;
+    grid-template-columns: repeat(3, 268px);
+    gap: 32px;
+}
+
+.main_fruit_block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+
+}
+
+.fruit_page_title {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.fruit_page_num {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.fruit_page_chosen {
+
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.fruit_page_block {
+    display: flex;
+    gap: 8px;
+}
+
+.fruit_page_btn {
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px 16px;
+    width: 214px;
+    height: 47px;
+    background-color: var(--c2-a);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+}
+
+.fruit_page_right {
+    display: flex;
+    gap: 4px;
+}
+
+.fruit_page_sub_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.fruit_pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.price_input {
+    padding: 11px 16px 12px 21px;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    width: 109px;
+    display: block;
+}
+
+.price_label {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.price_input_block {
+    display: flex;
+    margin-top: 16px;
+    gap: 14px;
+    margin-bottom: 31px;
+}
+
+.input_span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: var(--c1-c);
+    width: 10px;
+    height: 2px;
+    margin-top: 44px;
+}
+
+.price_btn {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px 16px;
+    width: 78px;
+    height: 48px;
+    background: var(--c2-a);
+
+}
+
+.price_reset {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-c);
+    border-radius: 12px;
+    padding: 12px 16px;
+    background-color: var(--c1-j);
+    border: none;
+}
+
+.price_btn_block {
+    display: flex;
+    gap: 34px;
+}
+
+.radio_block {
+    display: flex;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 9px 16px;
+    width: 236px;
+
+}
+
+.form {
+    margin: 16px 0;
+    display: flex;
+    gap: 16px;
+}
+
+.radio_label {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--c1-d);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.radio_input_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+    margin-top: 2px;
+}
+
+.radio_checkbox:checked+.radio_label {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--c1-a);
+    border: 2px solid var(--c1-a);
+    background-image: url(../img/radio.svg);
+}
+
+.radio_block {
+    display: flex;
+    gap: 8px;
+}
+
+.filter_checkbox_nbm {
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 9px 16px;
+    background-color: var(--c1-h);
+    width: 151px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nbm_btn {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c1-a);
+    border: 1px solid var(--c1-e);
+    border-radius: 12px;
+    padding: 0px 8px;
+    width: 46px;
+    height: 18px;
+    text-align: center;
+}
+
+.nbm_label {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 2px solid var(--c1-d);
+}
+
+.checkbox_nbm:checked+.nbm_label {
+    background-color: var(--c2-a);
+    border: 2px solid var(--c2-b);
+    background-image: url(../img/checkbox_tick.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter_checkbox_nbm_12 {
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 9px 16px;
+    background-color: var(--c1-h);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 235px;
+    position: relative;
+}
+.selected{
+ position: absolute;
+ right: 16px;
+font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+border: none;
+}
+.select_span{
+    position: absolute;
+    right: 85px;
+    border: 1px solid var(--c1-d);
+width: 0;
+height: 20px;
+}

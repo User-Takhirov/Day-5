@@ -1,0 +1,209 @@
+.carrot_homepage {
+    padding: 16px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.carrot_home_page_chosen {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.carrot_tomissy_list {
+    padding: 16px 0;
+}
+//     display: flex;
+//     justify-content: space-between;
+// }
+.carrot_farm_des_block{
+    padding-bottom: 64px;
+}
+
+.carrot_farm_title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: var(--c1-a);
+}
+
+.carrot_farm_text {
+    margin-bottom: 40px;
+    width: 570px;
+}
+
+.carrot_star_img_block {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 42px;
+}
+
+.carrot_customer_review {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.tomissy_item {
+    display: flex;
+    gap: 32px;
+}
+
+.carrot_home_page {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.carrot_farm_inner_list {
+    display: grid;
+    grid-template-columns: repeat(2, 269px);
+    column-gap: 32px;
+    margin-bottom: 40px;
+}
+
+.carrot_farm_inner_item {
+    display: grid;
+    grid-template-columns: repeat(2, 71px);
+    row-gap: 12px;
+}
+
+.carrot_farm_price_btn {
+    padding: 12px 16px 12px 38px;
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px 16px;
+    background-color: var(--c2-a);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+}
+
+.carrot_farm_price_block {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px 20px 16px;
+    justify-content: space-between;
+    border: 1px solid var(--c1-f);
+    border-radius: 12px;
+    background-color: var(--c1-j);
+    width: 534px;
+}
+.carrot_tomissy_img{
+   width: 569px;
+    height: 436px;;
+}
+
+.carrot_price_btn_block {
+    display: flex;
+    gap: 24px;
+
+}
+
+
+.carrot_farm_wish_list_block {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.carrot_wish_list {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+.carrot_wish_list:before{
+    content: "";
+    background-image: url(../img/carrot_like.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+
+}
+.carrot_wish_list_compare {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+.carrot_wish_list_compare::before{
+    content: "";
+    background-image: url(../img/carrot_before.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 16px;
+    display: inline-block;
+}
+.carrot_farm_img{
+    margin-bottom: 32px;
+}
+.carrot_farm_main_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+// carrot_farm_mid_des
+.carrot_farm_mid_list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--c1-f);
+}
+
+.carrot_farm_mid_link{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+.carrot_farm_mid_link_chosen{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    padding-bottom: 16px;
+    border-bottom:1px solid var(--c2-a);
+}
+.carrot_farm_mid_des{
+    margin-bottom: 48px;
+}
+.carrot_farm_mid_sub_text_block{
+    padding-bottom: 32px;
+}
+.carrot_farm_mid_sub_title{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+.carrot_farm_mid_sub_text{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+    width: 569px;
+}
+.carrot_farm_mid_sub_text_block{
+    margin-bottom: 32px;
+}
+.carrot_farm_last_title{
+font-weight: 500;
+font-size: 15px;
+color: var(--c1-a);
+margin-bottom: 16px;
+}
+.carrot_farm_last_link_title{
+font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+margin-bottom: 7px;
+}
+.carrot_farm_last_link{
+font-weight: 400;
+font-size: 14px;
+color: var(--c1-b);
+margin-bottom: 10px;
+}
+.carrot_farm_last_block{
+    display: flex;
+    justify-content: space-between;
+}

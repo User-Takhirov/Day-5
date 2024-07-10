@@ -1,0 +1,148 @@
+.top_header_block {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--c1-c);
+}
+
+.top_header_left_link_chosen {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.top_header_left_link {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.top_header_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_header_left_list {
+    display: flex;
+    gap: 33px;
+}
+
+.top_header_right_link {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.top_header_right_list {
+    display: flex;
+    gap: 38px;
+}
+
+// mid_header
+.mid_header {
+    padding: 40px 0;
+}
+
+.header_mid_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_input {
+    padding: 11px 44px 11px 194px;
+    width: 500px;
+
+}
+
+.header_select {
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.select_block::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/input_line.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 2px;
+    left: 157px;
+    top: 10px;
+}
+
+.input_block {
+    position: relative;
+}
+
+.input_img_block:after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/header_search.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    left: 468px;
+    top: 13px;
+    transform: translate(-50% -50%);
+}
+
+.mid_personal_store {
+    display: flex;
+    gap: 40px;
+}
+// bottom_header
+.bottom_header{
+    background-color: var(--c1-h);
+    padding: 16px 0;
+}
+.header_bottom_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_inner_bottom_list{
+    position: absolute;
+    opacity: 0;
+    list-style-type: none;
+    padding: 20px;
+    box-shadow: 2px 5px 10px 5px #ccc;
+    border-radius: 8px;
+    margin-top: -2px;   
+
+}
+
+.header_inner_bottom_item{
+    text-align: center;
+    // display: none;
+}
+.header_bottom_item{
+    position: relative;
+}
+.header_fixed_text:hover ~ .header_inner_bottom_list{
+    opacity: 1;
+}
+
+
+.slect_img{
+    position: absolute;
+    top: 5px;
+    right: -20px;
+}
+// .header_bottom_list> .header_bottom_item >.slect_img{
+//     transform: rotate(180deg);
+// }
+.header_fixed_text{
+    cursor: pointer;
+}
+.slect_img{
+    position: absolute;
+    right: -17px;
+    top: 7px;
+    transition: all .5s ease;
+}

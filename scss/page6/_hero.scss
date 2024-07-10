@@ -1,0 +1,35 @@
+.blog_detail_hero_des{
+    padding-top: 75px;
+}
+.blog_detail_hero_des_block{
+    display: flex;
+  gap: 32px;
+
+}
+.hero_detail_name{
+font-weight: 600;
+font-size: 12px;
+color: var(--c1-c);
+}
+.hero_detail_time{
+font-weight: 600;
+font-size: 12px;
+color: var(--c1-j);
+}
+
+.blog_detail_title{
+font-weight: 600;
+font-size: 32px;
+line-height: 140%;
+color: var(--c1-j);
+width: 569px;
+}
+.blog_detail_hero_img_block{
+    padding-top: 313px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background-image: url(../img/blog_detail.bg.jpg);
+    background-repeat: no-repeat;
+}
