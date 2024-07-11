@@ -2247,6 +2247,7 @@ body {
   width: 468px;
   height: 153px;
   background: var(--c1-j);
+  margin-left: auto;
 }
 
 .blog_details_comment_inner_block {
@@ -2267,9 +2268,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   margin-left: 185px;
 }
 
