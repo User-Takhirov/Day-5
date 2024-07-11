@@ -1761,6 +1761,10 @@ body {
           justify-content: space-between;
 }
 
+.checkout_page {
+  padding: 16px 0;
+}
+
 .home_page_text {
   padding: 16px 0;
 }
