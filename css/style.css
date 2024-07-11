@@ -148,6 +148,9 @@ body {
 .header_input {
   padding: 11px 44px 11px 194px;
   width: 500px;
+  border: 1px solid var(--c1-d);
+  border-radius: 12px;
+  background: var(--c1-h);
 }
 
 .header_select {

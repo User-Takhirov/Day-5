@@ -50,6 +50,9 @@
 .header_input {
     padding: 11px 44px 11px 194px;
     width: 500px;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    background: var(--c1-h);
 
 }
 
@@ -107,12 +110,12 @@
 }
 
 
-.header_bottom_item{
+.header_bottom_item {
     padding: 20px;
     position: relative;
 }
 
-.bottom_list{
+.bottom_list {
     width: 50px;
     background-color: #fff;
     text-align: center;
@@ -124,7 +127,7 @@
     transition: all 0.4s ease;
 }
 
-.header_bottom_name{
+.header_bottom_name {
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
@@ -132,7 +135,7 @@
     color: #000;
 }
 
-.header_p{
+.header_p {
     color: #000;
 }
 
