@@ -1816,7 +1816,6 @@ body {
   border-radius: 12px;
   width: 319px;
   background: var(--c1-h);
-  display: block;
 }
 
 .checkout_input::-webkit-input-placeholder {
@@ -2440,6 +2439,10 @@ body {
 }
 
 .checkout_input_block {
+  display: block;
+}
+
+.asjdkgafjglasgf {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

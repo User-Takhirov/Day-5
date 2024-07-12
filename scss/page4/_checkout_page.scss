@@ -47,7 +47,7 @@
     border-radius: 12px;
     width: 319px;
     background: var(--c1-h);
-    display: block;
+    // display: block
 }
 
 .checkout_input::placeholder {
@@ -98,6 +98,7 @@
 
 .billing_info_block {
     margin-bottom: 64px;
+
 }
 
 .billing_method_title_block {
@@ -509,6 +510,12 @@
 }
 
 .checkout_input_block {
+    // display: flex;
+    //  gap: 32px;
+    display: block;
+    
+}
+.asjdkgafjglasgf{
     display: flex;
     gap: 32px;
 }
